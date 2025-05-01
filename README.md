@@ -1,71 +1,98 @@
-# Getting Started with Create React App
+# Plataforma de Interação Esportiva
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto Integrado | Phillipe Martins da Silva  
+Pós-graduação em Desenvolvimento Web Full Stack - PUC Minas
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌍 Visão Geral
 
-### `npm start`
+A Plataforma de Interação Esportiva tem como objetivo facilitar o agendamento de quadras, organização de partidas, cadastro de atletas e contratação de árbitros. Com foco em usuários amadores, donos de quadras e árbitros, a solução conecta os envolvidos em jogos recreativos e campeonatos locais de forma digital, ágil e intuitiva.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Funcionalidades
 
-### `npm test`
+- Cadastro e login de usuários (OAuth com Google/Facebook)
+- Reserva de quadras com controle de disponibilidade
+- Cadastro de partidas, times e jogadores avulsos
+- Contratação de árbitros
+- Avaliações e ranking pós-jogo
+- Aluguel de coletes, bolas e itens esportivos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧱 Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Frontend
+- Flutter ou React
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Backend
+- NestJS (Node.js)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Banco de Dados
+- PostgreSQL ou Firebase Firestore
 
-### `npm run eject`
+### Autenticação
+- Firebase Auth / Auth0
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### CI/CD
+- GitHub Actions com deploy automático em ambiente de nuvem
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Hospedagem
+- Vercel / Render / Railway / AWS (EC2, RDS)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📎 Estrutura do Repositório
 
-## Learn More
+```bash
+/
+├── frontend/           # Aplicativo Flutter ou React
+├── backend/            # API NestJS
+├── .github/workflows/  # Pipelines de CI/CD
+├── docker/             # Arquivos de configuração Docker
+├── README.md
+└── LICENSE
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📊 Pipeline CI/CD
 
-### Code Splitting
+- Build e testes automatizados em push/pull request
+- Deploy em produção após merge na branch main
+- Utiliza GitHub Actions com jobs separados para frontend e backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 📦 Implantação em Nuvem
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+A aplicação está implantada em ambiente de nuvem escalável e responsivo, com acesso público via:
 
-### Making a Progressive Web App
+- Frontend: https://plataforma-esportiva.web.app
+- Backend: https://api.plataforma-esportiva.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🎥 Apresentação em Vídeo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Assista à demonstração da plataforma em funcionamento:
 
-### Deployment
+[![Assistir no YouTube](https://img.shields.io/badge/YouTube-Apresenta%C3%A7%C3%A3o-red?logo=youtube)](https://youtu.be/seu-video)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 👥 Autor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Front-End-PIA
+**Phillipe Martins da Silva**  
+Desenvolvedor Full Stack  
+[LinkedIn](https://www.linkedin.com/in/seu-perfil)  
+[Email](mailto:phillipe@email.com)
+
+---
+
+## 📄 Licença
+
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para mais informações.
+
